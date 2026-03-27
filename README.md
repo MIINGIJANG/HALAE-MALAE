@@ -89,22 +89,10 @@
 </table>
 
 <table width="100%">
-  <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.1. 일정 직접 입력 (ID: UC-01)</th></tr>
-  <tr height="40">
-    <td width="20%" align="center"><b>Actor</b></td>
-    <td width="80%">사용자</td>
-  </tr>
-  <tr height="80">
-    <td width="20%" align="center"><b>Description</b></td>
-    <td width="80%">사용자가 카카오톡, LMS, 학교 홈페이지 등에서 확인한 개인 일정, 과제, 시험 등의 마감일과 내용을 앱에 직접 입력하여 등록한다.</td>
-  </tr>
-</table>
-
-<table width="100%">
   <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.2. 통합 마감 리스트 조회 (ID: UC-02)</th></tr>
   <tr height="40">
     <td width="20%" align="center"><b>Actor</b></td>
-    <td width="80%">사용자</td>
+    <td width="100%">사용자</td>
   </tr>
   <tr height="80">
     <td width="20%" align="center"><b>Description</b></td>
