@@ -76,7 +76,7 @@
 
 > 👤 **행위자(Actor) 정의**: 사용자(User) - 앱을 설치하고 실제 일정 관리 및 실행 동기 부여 서비스를 이용하는 사람.
 
-<table width="120%">
+
   <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.1. 일정 직접 입력</th></tr>
   <tr height="60">
     <td width="20%" align="center"><b>Purpose</b></td>
@@ -88,7 +88,6 @@
   </tr>
 </table>
 
-<table width="120%">
   <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.2. 통합 마감 리스트 조회 (ID: UC-02)</th></tr>
   <tr height="40">
     <td width="20%" align="center"><b>Actor</b></td>
