@@ -1,4 +1,4 @@
-지금 까지의 모든 마크다운 코드는 잊고 앞으로의 질문은 독립된 질문이야 내가 지금 밑에 주는 코드만 기억해 <div align="center">
+<div align="center">
   <img src="https://github.com/user-attachments/assets/2c24bb80-c5db-429c-abbe-eeb9955361eb" width="300" alt="Halae-Malae Logo">
   <h1>🐆 할래말래 (Halae-Malae)</h1>
   <p><i>"미니멀리즘 기반 대학생 맞춤형 D-Day 멘탈 케어 서비스"</i></p>
