@@ -87,6 +87,8 @@
     <td>사용자가 카카오톡, LMS, 학교 홈페이지 등에서 확인한 개인 일정, 과제, 시험 등의 마감일과 내용을 앱에 직접 입력하여 등록한다.</td>
   </tr>
 
+  <tr><td colspan="2" bgcolor="#f6f8fa" style="height: 15px;"></td></tr>
+
   <tr><th colspan="2" align="left">✨ 3.2. 통합 마감 리스트 조회 (ID: UC-02)</th></tr>
   <tr>
     <td align="center"><b>Actor</b></td>
@@ -96,6 +98,8 @@
     <td align="center"><b>Description</b></td>
     <td>등록된 일정을 마감일(D-Day)이 임박한 우선순위 순으로 정렬된 리스트 형태로 조회하여 출력한다.</td>
   </tr>
+
+  <tr><td colspan="2" bgcolor="#f6f8fa" style="height: 15px;"></td></tr>
 
   <tr><th colspan="2" align="left">✨ 3.3. 통합 마감 캘린더 조회 (ID: UC-03)</th></tr>
   <tr>
@@ -107,6 +111,8 @@
     <td>사용자가 직접 입력한 모든 일정(개인, 과제, 시험) 데이터를 앱 내 통합 달력(Calendar) UI 위에서 한눈에 출력한다.</td>
   </tr>
 
+  <tr><td colspan="2" bgcolor="#f6f8fa" style="height: 15px;"></td></tr>
+
   <tr><th colspan="2" align="left">✨ 3.4. 마감 임박 알람 수신 (ID: UC-04)</th></tr>
   <tr>
     <td align="center"><b>Actor</b></td>
@@ -116,6 +122,8 @@
     <td align="center"><b>Description</b></td>
     <td>사용자가 설정한 마감 시간이 임박했을 때, 모바일 기기의 푸시 알림(Push Notification)을 통해 경고 알림을 수신한다.</td>
   </tr>
+
+  <tr><td colspan="2" bgcolor="#f6f8fa" style="height: 15px;"></td></tr>
 
   <tr><th colspan="2" align="left">✨ 3.5. 일정 완료 처리 (ID: UC-05)</th></tr>
   <tr>
@@ -151,6 +159,8 @@
     <td>산재된 데드라인 정보를 통합하는 수동 입력 기능을 구현한다.</td>
   </tr>
 
+  <tr><td colspan="2" bgcolor="#f6f8fa" style="height: 15px;"></td></tr>
+
   <tr><th colspan="2" align="left">💡 4.2. 통합 마감 리스트 조회</th></tr>
   <tr>
     <td align="center"><b>Purpose</b></td>
@@ -168,6 +178,8 @@
     <td align="center"><b>Goals</b></td>
     <td>남은 시간(D-Day) 기반의 자동 정렬 리스트 뷰(List View) 기능을 구현한다.</td>
   </tr>
+
+  <tr><td colspan="2" bgcolor="#f6f8fa" style="height: 15px;"></td></tr>
 
   <tr><th colspan="2" align="left">💡 4.3. 통합 마감 캘린더 조회</th></tr>
   <tr>
@@ -187,6 +199,8 @@
     <td>등록된 데이터를 바탕으로 통합 달력(Calendar) UI 상호작용 기능을 구현한다.</td>
   </tr>
 
+  <tr><td colspan="2" bgcolor="#f6f8fa" style="height: 15px;"></td></tr>
+
   <tr><th colspan="2" align="left">💡 4.4. 마감 임박 알람 수신</th></tr>
   <tr>
     <td align="center"><b>Purpose</b></td>
@@ -205,6 +219,8 @@
     <td>OS 연동을 통한 D-Day 기반 타이머 및 푸시 알림(Push) 기능을 구현한다.</td>
   </tr>
 
+  <tr><td colspan="2" bgcolor="#f6f8fa" style="height: 15px;"></td></tr>
+
   <tr><th colspan="2" align="left">💡 4.5. 일정 완료 처리</th></tr>
   <tr>
     <td align="center"><b>Purpose</b></td>
@@ -212,7 +228,7 @@
   </tr>
   <tr>
     <td align="center"><b>Approach</b></td>
-    <td>사용자가 특정 일정의 체크박스를 탭(Tap)하거나 스와이프(Swipe) 하면, 시스템이 해당 데이터의 상태(Status)를 '완료'로 업데이트하고 진행 중인 리스트에서 숨김 또는 취소선 처리를 한다.</td>
+    <td>사용자가 특정 일정의 체크박스를 탭(Tap)하거나 스와이프(Swipe) 하면, 시스템이 해당 데이터의 상태(Status)를 '완료'로 업데이트하고 진행 중인 리스트에서 숨김 또는 취소선 처리를 단행한다.</td>
   </tr>
   <tr>
     <td align="center"><b>Dynamics</b></td>
