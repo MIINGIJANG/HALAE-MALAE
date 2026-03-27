@@ -1,6 +1,7 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/2c24bb80-c5db-429c-abbe-eeb9955361eb" width="750" alt="Halae-Malae Logo">
   <h1>할래말래</h1>
+  
 </div>
 
 <br/>
