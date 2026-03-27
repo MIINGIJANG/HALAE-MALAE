@@ -77,6 +77,26 @@
 > 👤 **행위자(Actor) 정의**: 사용자(User) - 앱을 설치하고 실제 일정 관리 및 실행 동기 부여 서비스를 이용하는 사람.
 
 <table width="100%">
+  <tr><th colspan="2" align="left" bgcolor="#e1e4e8">💡 4.1. 일정 직접 입력</th></tr>
+  <tr height="60">
+    <td width="20%" align="center"><b>Purpose</b></td>
+    <td width="80%">파편화된 마감 일정(LMS, 학교 홈페이지, 카카오톡 등)을 앱에 등록하여 단일화하기 위함</td>
+  </tr>
+  <tr height="80">
+    <td align="center"><b>Approach</b></td>
+    <td>사용자가 앱 메인 화면에서 '추가(+)' 버튼을 눌러 일정의 제목, 카테고리(개인/과제/시험), 마감 일시(날짜 및 시간)를 입력 후 저장하면 시스템이 데이터를 DB에 기록한다.</td>
+  </tr>
+  <tr height="60">
+    <td align="center"><b>Dynamics</b></td>
+    <td>새로운 과제나 일정을 인지하고 앱에 기록하려 할 때 발생</td>
+  </tr>
+  <tr height="60">
+    <td align="center"><b>Goals</b></td>
+    <td>산재된 데드라인 정보를 통합하는 수동 입력 기능을 구현한다.</td>
+  </tr>
+</table>
+
+<table width="100%">
   <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.1. 일정 직접 입력 (ID: UC-01)</th></tr>
   <tr height="40">
     <td width="20%" align="center"><b>Actor</b></td>
