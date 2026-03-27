@@ -17,16 +17,8 @@
     <td>22212058 장민기</td>
   </tr>
   <tr height="40">
-    <td align="center"><b>Affiliation</b></td>
-    <td>영남대학교 컴퓨터공학과 (Yeungnam University)</td>
-  </tr>
-  <tr height="40">
     <td align="center"><b>Contact</b></td>
     <td>mingijang@yu.ac.kr</td>
-  </tr>
-  <tr height="40">
-    <td align="center"><b>Date</b></td>
-    <td>2026-03-27</td>
   </tr>
 </table>
 
