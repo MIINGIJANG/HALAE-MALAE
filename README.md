@@ -80,7 +80,7 @@
   <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.1. 일정 직접 입력</th></tr>
   <tr height="60">
     <td width="20%" align="center"><b>Purpose</b></td>
-    <td width="80%">사용자</td>
+    <td width="100%">사용자</td>
   </tr>
   <tr height="80">
     <td width="20%" align="center"><b>Approach</b></td>
