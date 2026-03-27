@@ -1,7 +1,6 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/2c24bb80-c5db-429c-abbe-eeb9955361eb" width="750" alt="Halae-Malae Logo">
-  <h1>🐆 할래말래 (Halae-Malae)</h1>
-  <p><i>"미니멀리즘 기반 대학생 맞춤형 D-Day 멘탈 케어 서비스"</i></p>
+  <h1>할래말래</h1>
 </div>
 
 <br/>
