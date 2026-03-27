@@ -76,63 +76,64 @@
 
 > 👤 **행위자(Actor) 정의**: 사용자(User) - 앱을 설치하고 실제 일정 관리 및 실행 동기 부여 서비스를 이용하는 사람.
 
-
-  <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.1. 일정 직접 입력</th></tr>
-  <tr height="60">
-    <td width="20%" align="center"><b>Purpose</b></td>
-    <td width="100%">사용자</td>
-  </tr>
-  <tr height="80">
-    <td width="20%" align="center"><b>Approach</b></td>
-    <td width="100%">사용자가 카카오톡, LMS, 학교 홈페이지 등에서 확인한 개인 일정, 과제, 시험 등의 마감일과 내용을 앱에 직접 입력하여 등록한다.</td>
-  </tr>
-</table>
-
-  <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.2. 통합 마감 리스트 조회 (ID: UC-02)</th></tr>
-  <tr height="40">
-    <td width="20%" align="center"><b>Actor</b></td>
-    <td width="100%">사용자</td>
-  </tr>
-  <tr height="80">
-    <td width="20%" align="center"><b>Description</b></td>
-    <td width="100%">등록된 일정을 마감일(D-Day)이 임박한 우선순위 순으로 정렬된 리스트 형태로 조회하여 출력한다.</td>
-  </tr>
+<table width="100%">
+  <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.1. 일정 직접 입력 (ID: UC-01)</th></tr>
+  <tr height="40">
+    <td width="20%" align="center"><b>Actor</b></td>
+    <td width="80%">사용자</td>
+  </tr>
+  <tr height="80">
+    <td align="center"><b>Description</b></td>
+    <td>사용자가 카카오톡, LMS, 학교 홈페이지 등에서 확인한 개인 일정, 과제, 시험 등의 마감일과 내용을 앱에 직접 입력하여 등록한다.</td>
+  </tr>
 </table>
 
 <table width="100%">
-  <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.3. 통합 마감 캘린더 조회 (ID: UC-03)</th></tr>
-  <tr height="40">
-    <td width="20%" align="center"><b>Actor</b></td>
-    <td width="80%">사용자</td>
-  </tr>
-  <tr height="80">
-    <td width="20%" align="center"><b>Description</b></td>
-    <td width="80%">사용자가 직접 입력한 모든 일정(개인, 과제, 시험) 데이터를 앱 내 통합 달력(Calendar) UI 위에서 한눈에 출력한다.</td>
-  </tr>
+  <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.2. 통합 마감 리스트 조회 (ID: UC-02)</th></tr>
+  <tr height="40">
+    <td width="20%" align="center"><b>Actor</b></td>
+    <td width="80%">사용자</td>
+  </tr>
+  <tr height="80">
+    <td align="center"><b>Description</b></td>
+    <td>등록된 일정을 마감일(D-Day)이 임박한 우선순위 순으로 정렬된 리스트 형태로 조회하여 출력한다.</td>
+  </tr>
 </table>
 
 <table width="100%">
-  <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.4. 마감 임박 알람 수신 (ID: UC-04)</th></tr>
-  <tr height="40">
-    <td width="20%" align="center"><b>Actor</b></td>
-    <td width="80%">사용자</td>
-  </tr>
-  <tr height="80">
-    <td width="20%" align="center"><b>Description</b></td>
-    <td width="80%">사용자가 설정한 마감 시간이 임박했을 때, 모바일 기기의 푸시 알림(Push Notification)을 통해 경고 알림을 수신한다.</td>
-  </tr>
+  <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.3. 통합 마감 캘린더 조회 (ID: UC-03)</th></tr>
+  <tr height="40">
+    <td width="20%" align="center"><b>Actor</b></td>
+    <td width="80%">사용자</td>
+  </tr>
+  <tr height="80">
+    <td align="center"><b>Description</b></td>
+    <td>사용자가 직접 입력한 모든 일정(개인, 과제, 시험) 데이터를 앱 내 통합 달력(Calendar) UI 위에서 한눈에 출력한다.</td>
+  </tr>
 </table>
 
 <table width="100%">
-  <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.5. 일정 완료 처리 (ID: UC-05)</th></tr>
-  <tr height="40">
-    <td width="20%" align="center"><b>Actor</b></td>
-    <td width="80%">사용자</td>
-  </tr>
-  <tr height="80">
-    <td width="20%" align="center"><b>Description</b></td>
-    <td width="80%">사용자가 해당 과제나 일정을 완수했을 경우, 체크하여 완료 상태로 변경하고 통합 리스트 및 달력에 반영한다.</td>
-  </tr>
+  <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.4. 마감 임박 알람 수신 (ID: UC-04)</th></tr>
+  <tr height="40">
+    <td width="20%" align="center"><b>Actor</b></td>
+    <td width="80%">사용자</td>
+  </tr>
+  <tr height="80">
+    <td align="center"><b>Description</b></td>
+    <td>사용자가 설정한 마감 시간이 임박했을 때, 모바일 기기의 푸시 알림(Push Notification)을 통해 경고 알림을 수신한다.</td>
+  </tr>
+</table>
+
+<table width="100%">
+  <tr><th colspan="2" align="left" bgcolor="#e1e4e8">✨ 3.5. 일정 완료 처리 (ID: UC-05)</th></tr>
+  <tr height="40">
+    <td width="20%" align="center"><b>Actor</b></td>
+    <td width="80%">사용자</td>
+  </tr>
+  <tr height="80">
+    <td align="center"><b>Description</b></td>
+    <td>사용자가 해당 과제나 일정을 완수했을 경우, 체크하여 완료 상태로 변경하고 통합 리스트 및 달력에 반영한다.</td>
+  </tr>
 </table>
 
 <br/>
