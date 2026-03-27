@@ -300,12 +300,12 @@
 <br/>
 
 ## 📚 7. References
-1. Alan Dennis, Barbara Haley Wixom and David Tegarden, *Systems Analysis and Design with UML: An Object-Oriented Approach*, 5th edition, Wiley.
-2. Grady Booch, James Rumbaugh, and Ivar Jacobson, *Unified Modeling Language User Guide*, 2nd Edition, Addison-Wesley Professional.
-3. Barrett Williams, *Open Source Collaboration: Harnessing the Power of Community for Software*.
+1. Alan Dennis, Barbara Haley Wixom and David Tegarden, Systems Analysis and Design with UML: An Object-Oriented Approach , 5th edition, Wiley. (시스템 분석 및 설계 도출 방법론 참고)
+2. Grady Booch, James Rumbaugh, and Ivar Jacobson, Unified Modeling Language User Guide , 2nd Edition, Addison-Wesley Professional. (시스템 구조 모델링 및 설계 가이드 참고)
+3. Barrett Williams, Open Source Collaboration: Harnessing the Power of Community for Software. (소프트웨어 개발 과정의 헙업 및 문제 해결 발법론 참고)
 4. Apple Inc., *Human Interface Guidelines*.
 
 ---
 <div align="right">
-  Copyright 2026. <b>장민기(mingijang@yu.ac.kr)</b> all rights reserved.
+
 </div>
