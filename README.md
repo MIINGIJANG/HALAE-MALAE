@@ -7,12 +7,28 @@
 <br/>
 
 ### 📌 Project Properties
-| Property | Description |
-| :--- | :--- |
-| **Author** | 22212058 장민기 |
-| **Affiliation** | 영남대학교 컴퓨터공학과 (Yeungnam University) |
-| **Contact** | mingijang@yu.ac.kr |
-| **Date** | 2026-03-27 |
+<table width="100%">
+  <tr>
+    <th width="20%">Property</th>
+    <th width="80%">Description</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Author</b></td>
+    <td>22212058 장민기</td>
+  </tr>
+  <tr>
+    <td align="center"><b>Affiliation</b></td>
+    <td>영남대학교 컴퓨터공학과 (Yeungnam University)</td>
+  </tr>
+  <tr>
+    <td align="center"><b>Contact</b></td>
+    <td>mingijang@yu.ac.kr</td>
+  </tr>
+  <tr>
+    <td align="center"><b>Date</b></td>
+    <td>2026-03-27</td>
+  </tr>
+</table>
 
 ---
 
@@ -61,104 +77,123 @@
 > 👤 **행위자(Actor) 정의**: 사용자(User) - 앱을 설치하고 실제 일정 관리 및 실행 동기 부여 서비스를 이용하는 사람.
 
 #### 3.1. 일정 직접 입력 (ID: UC-01)
-| 구분 | 내용 |
-| :--- | :--- |
-| **Actor** | 사용자 |
-| **Description** | 사용자가 카카오톡, LMS, 학교 홈페이지 등에서 확인한 개인 일정, 과제, 시험 등의 마감일과 내용을 앱에 직접 입력하여 등록한다. |
+<table width="100%">
+  <tr><th width="20%">구분</th><th width="80%">내용</th></tr>
+  <tr><td align="center"><b>Actor</b></td><td>사용자</td></tr>
+  <tr><td align="center"><b>Description</b></td><td>사용자가 카카오톡, LMS, 학교 홈페이지 등에서 확인한 개인 일정, 과제, 시험 등의 마감일과 내용을 앱에 직접 입력하여 등록한다.</td></tr>
+</table>
 
 #### 3.2. 통합 마감 리스트 조회 (ID: UC-02)
-| 구분 | 내용 |
-| :--- | :--- |
-| **Actor** | 사용자 |
-| **Description** | 등록된 일정을 마감일(D-Day)이 임박한 우선순위 순으로 정렬된 리스트 형태로 조회하여 출력한다. |
+<table width="100%">
+  <tr><th width="20%">구분</th><th width="80%">내용</th></tr>
+  <tr><td align="center"><b>Actor</b></td><td>사용자</td></tr>
+  <tr><td align="center"><b>Description</b></td><td>등록된 일정을 마감일(D-Day)이 임박한 우선순위 순으로 정렬된 리스트 형태로 조회하여 출력한다.</td></tr>
+</table>
 
 #### 3.3. 통합 마감 캘린더 조회 (ID: UC-03)
-| 구분 | 내용 |
-| :--- | :--- |
-| **Actor** | 사용자 |
-| **Description** | 사용자가 직접 입력한 모든 일정 데이터를 앱 내 통합 달력(Calendar) UI 위에서 한눈에 출력한다. |
+<table width="100%">
+  <tr><th width="20%">구분</th><th width="80%">내용</th></tr>
+  <tr><td align="center"><b>Actor</b></td><td>사용자</td></tr>
+  <tr><td align="center"><b>Description</b></td><td>사용자가 직접 입력한 모든 일정(개인, 과제, 시험) 데이터를 앱 내 통합 달력(Calendar) UI 위에서 한눈에 출력한다.</td></tr>
+</table>
 
 #### 3.4. 마감 임박 알람 수신 (ID: UC-04)
-| 구분 | 내용 |
-| :--- | :--- |
-| **Actor** | 사용자 |
-| **Description** | 사용자가 설정한 마감 시간이 임박했을 때, 모바일 기기의 푸시 알림(Push Notification)을 통해 경고 알림을 수신한다. |
+<table width="100%">
+  <tr><th width="20%">구분</th><th width="80%">내용</th></tr>
+  <tr><td align="center"><b>Actor</b></td><td>사용자</td></tr>
+  <tr><td align="center"><b>Description</b></td><td>사용자가 설정한 마감 시간이 임박했을 때, 모바일 기기의 푸시 알림(Push Notification)을 통해 경고 알림을 수신한다.</td></tr>
+</table>
 
 #### 3.5. 일정 완료 처리 (ID: UC-05)
-| 구분 | 내용 |
-| :--- | :--- |
-| **Actor** | 사용자 |
-| **Description** | 사용자가 해당 과제나 일정을 완수했을 경우, 체크하여 완료 상태로 변경하고 통합 리스트 및 달력에 반영한다. |
+<table width="100%">
+  <tr><th width="20%">구분</th><th width="80%">내용</th></tr>
+  <tr><td align="center"><b>Actor</b></td><td>사용자</td></tr>
+  <tr><td align="center"><b>Description</b></td><td>사용자가 해당 과제나 일정을 완수했을 경우, 체크하여 완료 상태로 변경하고 통합 리스트 및 달력에 반영한다.</td></tr>
+</table>
 
 <br/>
 
 ## ⚙️ 4. Concept of operation (운영 개념)
 
-#### 4.1. 일정 직접 입력 (Conceptual Dynamics)
-| 구분 | 내용 |
-| :--- | :--- |
-| **Dynamics** | 새로운 일정 인지 시 발생 |
-| **Approach** | 추가 버튼 클릭 -> 카테고리/제목/마감일시 입력 -> 저장 클릭 |
-| **Goals** | 산재된 데드라인 정보 단일화 |
+#### 4.1. 일정 직접 입력
+<table width="100%">
+  <tr><th width="20%">구분</th><th width="80%">내용</th></tr>
+  <tr><td align="center"><b>Purpose</b></td><td>파편화된 마감 일정(LMS, 학교 홈페이지, 카카오톡 등)을 앱에 등록하여 단일화하기 위함</td></tr>
+  <tr><td align="center"><b>Approach</b></td><td>사용자가 앱 메인 화면에서 '추가(+)' 버튼을 눌러 일정의 제목, 카테고리(개인/과제/시험), 마감 일시(날짜 및 시간)를 입력 후 저장하면 시스템이 데이터를 DB에 기록한다.</td></tr>
+  <tr><td align="center"><b>Dynamics</b></td><td>새로운 과제나 일정을 인지하고 앱에 기록하려 할 때 발생</td></tr>
+  <tr><td align="center"><b>Goals</b></td><td>산재된 데드라인 정보를 통합하는 수동 입력 기능을 구현한다.</td></tr>
+</table>
 
-#### 4.2. 통합 마감 리스트 조회 (Conceptual Dynamics)
-| 구분 | 내용 |
-| :--- | :--- |
-| **Dynamics** | 앱 실행 시 자동 발생 |
-| **Approach** | 앱 실행 -> D-Day 기반 자동 정렬 리스트 출력 |
-| **Goals** | 시급도 직관적 인지 및 벼락치기 악순환 방지 |
+#### 4.2. 통합 마감 리스트 조회
+<table width="100%">
+  <tr><th width="20%">구분</th><th width="80%">내용</th></tr>
+  <tr><td align="center"><b>Purpose</b></td><td>마감이 가장 임박한 순서대로 일정을 한눈에 파악하여 시급도를 직관적으로 인지하기 위함</td></tr>
+  <tr><td align="center"><b>Approach</b></td><td>사용자가 앱 메인 리스트 화면에 접속하면, 시스템이 DB에 등록된 일정을 현재 시간 기준으로 남은 시간(D-Day)이 가장 적은 순서대로 자동 정렬하여 화면에 출력한다.</td></tr>
+  <tr><td align="center"><b>Dynamics</b></td><td>앱을 실행하여 현재 가장 시급하게 처리해야 할 일이 무엇인지 확인할 때 발생</td></tr>
+  <tr><td align="center"><b>Goals</b></td><td>남은 시간(D-Day) 기반의 자동 정렬 리스트 뷰(List View) 기능을 구현한다.</td></tr>
+</table>
 
-#### 4.3. 통합 마감 캘린더 조회 (Conceptual Dynamics)
-| 구분 | 내용 |
-| :--- | :--- |
-| **Dynamics** | 전체적인 일정 분포 파악 시 발생 |
-| **Approach** | 캘린더 탭 클릭 -> 달력 날짜에 마감일 매핑 표시 |
-| **Goals** | 일정 분포의 시각적 파악 및 사전 계획 수립 유도 |
+#### 4.3. 통합 마감 캘린더 조회
+<table width="100%">
+  <tr><th width="20%">구분</th><th width="80%">내용</th></tr>
+  <tr><td align="center"><b>Purpose</b></td><td>사용자가 입력한 모든 데드라인을 전체적인 월간 달력 위에서 시각적으로 파악하기 위함</td></tr>
+  <tr><td align="center"><b>Approach</b></td><td>사용자가 캘린더 탭을 누르면, 시스템이 등록된 전체 일정 데이터를 캘린더 UI의 해당 날짜에 매핑하여 표시하며, 날짜 클릭 시 하단에 상세 마감일 리스트가 노출된다.</td></tr>
+  <tr><td align="center"><b>Dynamics</b></td><td>전체적인 이번 달이나 이번 주의 일정 분포와 몰림 정도를 시각적으로 점검할 때 발생</td></tr>
+  <tr><td align="center"><b>Goals</b></td><td>등록된 데이터를 바탕으로 통합 달력(Calendar) UI 상호작용 기능을 구현한다.</td></tr>
+</table>
 
-#### 4.4. 마감 임박 알람 수신 (Conceptual Dynamics)
-| 구분 | 내용 |
-| :--- | :--- |
-| **Dynamics** | 특정 마감 임박 조건 도달 시 자동 트리거 |
-| **Approach** | 백그라운드 연산 -> D-24h / D-1h 등 푸시 알림 수신 |
-| **Goals** | 능동적 실행 동기 부여 |
+#### 4.4. 마감 임박 알람
+<table width="100%">
+  <tr><th width="20%">구분</th><th width="80%">내용</th></tr>
+  <tr><td align="center"><b>Purpose</b></td><td>앱을 켜지 않은 상태에서도 다가오는 마감일을 인지하여 사용자의 행동을 유도하기 위함</td></tr>
+  <tr><td align="center"><b>Approach</b></td><td>시스템이 백그라운드에서 현재 시간과 마감 일시를 비교 연산하여, D-24시간, D-1시간 등 특정 조건 도달 시 모바일 운영체제(OS)의 API를 호출해 사용자 기기 화면에 푸시 알림을 발송한다.</td></tr>
+  <tr><td align="center"><b>Dynamics</b></td><td>등록해 둔 일정의 마감 시간이 임박했을 때 시스템에 의해 자동으로 트리거됨</td></tr>
+  <tr><td align="center"><b>Goals</b></td><td>OS 연동을 통한 D-Day 기반 타이머 및 푸시 알림(Push) 기능을 구현한다.</td></tr>
+</table>
 
-#### 4.5. 일정 완료 처리 (Conceptual Dynamics)
-| 구분 | 내용 |
-| :--- | :--- |
-| **Dynamics** | 과제 완수 직후 발생 |
-| **Approach** | 완료 체크박스 탭/스와이프 -> 상태 업데이트 및 취소선/숨김 처리 |
-| **Goals** | 성취감 부여 및 완료 일정 관리 |
+#### 4.5. 일정 완료 처리
+<table width="100%">
+  <tr><th width="20%">구분</th><th width="80%">내용</th></tr>
+  <tr><td align="center"><b>Purpose</b></td><td>완료한 일정을 리스트에서 제외하여 성취감을 부여하고 헷갈리지 않게 관리하기 위함</td></tr>
+  <tr><td align="center"><b>Approach</b></td><td>사용자가 특정 일정의 체크박스를 탭(Tap)하거나 스와이프(Swipe) 하면, 시스템이 해당 데이터의 상태(Status)를 '완료'로 업데이트하고 진행 중인 리스트에서 숨김 또는 취소선 처리를 한다.</td></tr>
+  <tr><td align="center"><b>Dynamics</b></td><td>과제 제출, 시험 응시 등 해당 목표를 실제로 완수한 직후 발생</td></tr>
+  <tr><td align="center"><b>Goals</b></td><td>사용자 제스처 기반의 데이터 상태 변경 및 UI 실시간 업데이트 기능을 구현한다.</td></tr>
+</table>
 
 <br/>
 
 ## ⚠️ 5. Problem statement & NFRs
 
 > 🚧 **문제점 및 기술적 난제**
-> 1. **수동 입력 피로도 최소화 UI 설계**: 직접 입력 방식을 채택했으므로, 3단계(Depth) 이내 터치로 완료되는 직관적인 UI 설계가 필수적입니다.
-> 2. **백그라운드 알림 정확성 확보**: 앱이 종료된 상태에서도 타이머가 정확히 작동하여 알림이 발송되도록 기술적 설계가 필요합니다.
-> 3. **시각적 압박감과 심미성의 조화**: 경각심을 주는 시각적 압박감이 미니멀한 감성을 해치지 않도록 균형을 잡아야 합니다.
+> 1. **수동 입력 피로도 최소화 UI 설계**: 직접 입력 방식을 채택했으므로, 3단계(Depth) 이내 터치로 완료되는 극도로 직관적인 UI/UX 설계가 필수적입니다.
+> 2. **백그라운드 알림 정확성 확보**: 모바일 OS의 엄격한 배터리 최적화 정책 속에서도, 앱이 종료된 상태에서 타이머가 정확히 작동하여 알림이 발송되도록 기술적 설계가 필요합니다.
+> 3. **시각적 압박감과 심미성의 조화**: 경각심을 주는 시각적 압박감이 과도한 불쾌감으로 이어지지 않도록 적절한 수준의 미니멀리즘과 심미성을 유지해야 합니다.
 
 * **비기능 요구사항(NFRs)**
-    * **신뢰성(Reliability)**: 설정한 알림 시간에 오차 없이 100% 트리거되어야 함.
-    * **사용성(Usability)**: 신규 일정 등록 시 3단계 이내로 완료되는 UI 제공.
-    * **성능(Performance)**: 화면 전환 시 지연 없는 즉각적인 렌더링 보장.
+    * **신뢰성(Reliability)**: 설정한 마감 기한 및 알림 시간에 오차나 지연 없이 100% 알림이 트리거되어야 합니다.
+    * **사용성(Usability)**: 신규 일정 등록 시 3단계(Depth) 이내의 화면 전환만으로 입력이 완료되도록 직관적인 UI를 구현해야 합니다.
+    * **성능(Performance)**: 여러 일정이 등록된 상태에서도 리스트 뷰 및 통합 달력 화면 간 전환 시 지연 현상(Lag) 없이 즉각적인 렌더링이 이루어져야 합니다.
 
 <br/>
 
 ## 📖 6. Glossary
 
-* **LMS (Learning Management System)**: 대학 학습관리시스템으로, 마감 정보의 주요 출처 중 하나입니다 Std No_Name-2.pdf].
-* **파편화 (Fragmentation)**: 일정이 여러 플랫폼에 분산되어 관리가 어려운 상태를 뜻합니다 Std No_Name-2.pdf].
-* **D-Day**: 과제 마감일까지 남은 기한으로, 시급도를 전달하는 핵심 지표입니다 Std No_Name-2.pdf].
-* **가변적 UI**: 마감 임박도에 따라 테마나 마스코트가 변화하는 설계 원리입니다 Std No_Name-2.pdf].
-* **로컬 푸시 알림**: 외부 서버 없이 기기 내부 기능을 활용해 알림을 띄우는 방식입니다 Std No_Name-2.pdf].
+<table width="100%">
+  <tr><th width="20%">용어</th><th width="80%">상세 설명</th></tr>
+  <tr><td align="center"><b>LMS</b></td><td>대학에서 학생들의 온라인 강의 수강, 과제 제출, 성적 확인 등을 온라인으로 지원하고 관리하는 학습관리시스템을 의미합니다.</td></tr>
+  <tr><td align="center"><b>파편화</b></td><td>대학생의 학업 및 개인 일정(과제, 팀 프로젝트, 시험 등)이 학교 홈페이지, LMS, 메신저 등 여러 플랫폼에 분산되어 관리하기 어려운 상태를 지칭합니다.</td></tr>
+  <tr><td align="center"><b>D-Day</b></td><td>특정 과제나 일정의 마감일(Deadline)까지 남은 기한을 의미하며, 사용자에게 일정의 시급도를 전달하고 행동을 유도하는 핵심 연산 지표입니다.</td></tr>
+  <tr><td align="center"><b>UI 및 시각적 압박감</b></td><td>마감일(D-Day)이 다가옴에 따라 사용자에게 경각심과 실행 동기를 부여하는 본 애플리케이션의 핵심 디자인 원리입니다.</td></tr>
+  <tr><td align="center"><b>통합 일정 달력</b></td><td>파편화된 다양한 목적의 일정을 수동으로 입력하여 하나의 달력(Calendar) 화면 위에서 종합적으로 모아보고 시급도를 파악할 수 있도록 구현한 기능입니다.</td></tr>
+  <tr><td align="center"><b>로컬 푸시 알림</b></td><td>외부 통신 서버를 거치지 않고 사용자 기기 내부의 운영체제(iOS/Android) 스케줄링 기능을 활용하여, 지정된 마감 임박 시간에 경고 알림을 띄우는 방식입니다.</td></tr>
+</table>
 
 <br/>
 
 ## 📚 7. References
-1. Alan Dennis et al., *Systems Analysis and Design with UML*, 5th edition, Wiley.
-2. Grady Booch et al., *Unified Modeling Language User Guide*, 2nd Edition.
-3. Barrett Williams, *Open Source Collaboration*.
+1. Alan Dennis, Barbara Haley Wixom and David Tegarden, *Systems Analysis and Design with UML: An Object-Oriented Approach*, 5th edition, Wiley.
+2. Grady Booch, James Rumbaugh, and Ivar Jacobson, *Unified Modeling Language User Guide*, 2nd Edition, Addison-Wesley Professional.
+3. Barrett Williams, *Open Source Collaboration: Harnessing the Power of Community for Software*.
 4. Apple Inc., *Human Interface Guidelines*.
 
 ---
